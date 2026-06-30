@@ -1,0 +1,10 @@
+# terraform.tfvars.example — modele de configuration (non sensible)
+# Copiez ce fichier en terraform.tfvars et completez les valeurs reelles.
+
+minio_root_password = "changez-ce-mot-de-passe"
+
+# Variables optionnelles (valeurs par defaut dans variables.tf) :
+# container_name      = "anfa-minio-tf"
+# minio_api_port      = 9010
+# minio_console_port  = 9011
+# minio_root_user     = "anfa-admin"
