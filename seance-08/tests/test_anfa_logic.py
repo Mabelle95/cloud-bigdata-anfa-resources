@@ -38,7 +38,7 @@ def test_verifier_liste_fichiers_leve_erreur_si_vide():
 def test_verifier_liste_fichiers_calcule_correctement():
     """Le résumé doit compter les fichiers et sommer les tailles en Ko."""
     objets = [
-        {"Key": "part-0000.parquet", "Size": 1024},
+        {"Key": "part-0000.parquet", "Size": 1000},
         {"Key": "part-0001.parquet", "Size": 2048},
     ]
     resultat = verifier_liste_fichiers(objets)
